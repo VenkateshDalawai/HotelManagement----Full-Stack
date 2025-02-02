@@ -27,7 +27,7 @@ The **Hotel Management System** is a full-stack web application that allows user
 ## Installation
 
 ### Prerequisites:
-- **Java 11** or later
+- **Java 17** 
 - **Node.js** (v14 or later)
 - **Maven** (for building the Spring Boot application)
 - MongoDB (if using for production, or use H2 for development)
