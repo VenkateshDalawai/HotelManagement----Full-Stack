@@ -1,0 +1,349 @@
+body{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+  }
+  #username{
+    text-decoration: none;
+    border: none;
+    background: transparent;
+    padding-right: 10px;
+  }
+  #username>span{
+    transform: translateY(100%);
+  }
+  #username:hover{
+    color: white;
+
+  }
+  .nav-link{
+    text-align: center;
+    background-color: #fff !important;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 5px;
+  }
+  .nav-link.active {
+    color: #c1f622 !important;  
+    background-color: #99525281 !important;
+    border-radius: 10px;
+  }
+  #header{
+    background-color: #a17a7a;
+    color: white;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius:10px;
+  }
+  #offcanvas{
+    background-color: antiquewhite;
+    cursor: pointer;
+  }
+  
+  .navbar-brand{
+    pointer-events: none;
+  } 
+  .nav-link:hover{
+    color: rgb(8, 109, 242);
+    cursor: pointer;
+  }
+  
+  #login{
+    text-decoration: none;
+    color: #000;
+    padding-right: 12px;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+
+  }
+  #login:hover{
+    color: white;
+    transition: all 1s ease-in-out;
+    transform: scaleX(1.2);
+  }
+  #home_Header{
+    color: black;
+    text-align: center;
+    margin-top: 100px;
+
+  }
+  #hotel_rooms_img:hover{
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.05);
+  }
+  
+  #about_header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    margin-top: 90px;
+    
+  }
+  
+  .about_content {
+    background-color: white;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    
+  }
+  
+  #about_header>h1 {
+    margin: 0;
+  }
+  
+  .about_content>h2 {
+    margin-top: 20px;
+    
+  }
+  
+  .about_content>p {
+    line-height: 1.6;
+  }
+  
+  .about_content>ul {
+    padding-left: 20px;
+  }
+  
+  .about_content>address {
+    margin-top: 10px;
+  }
+  
+  .about_content>address a {
+    color: #333;
+  }
+  
+  .about_content>address a:hover {
+    color: #000;
+  }
+  #about_body_bgcolor{
+    background-color: white;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  #about_contactForm{
+    box-shadow: 2px 2px 17px black;
+    margin-left: 350px;
+    margin-right: 380px;
+    padding: 20px;
+  
+  }
+  #booking_container {
+  
+    margin-top: 75px;
+    font-family: "Lugrasimo", cursive;
+    font-weight: 400;
+    font-style: normal;
+  
+  }
+  
+  #booking_rooms {
+    border: 2px solid black;
+    background-color: white;
+    margin-bottom: 5px;
+  }
+  
+  #booking_rooms:hover {
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.01);
+  
+  }
+  
+  #booking_anuchor_tag {
+    text-decoration: none;
+    color: black;
+  
+  }
+  
+  #form_header {
+  
+    color: #333;
+    text-align: center;
+  
+  }
+  
+  .form_content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 80px;
+  }
+  
+  #form_form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #form_form>label,
+  #form_form>input,
+  #form_form>select,
+  #form_form>textarea {
+    display: block;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  
+  #form_form>input[type="text"],
+  #form_form>input[type="email"],
+  #form_form>input[type="date"],
+  #form_form>select,
+  #form_form>textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  #form_form>input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #form_form>input[type="submit"]:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 600px) {
+    #form_form {
+        padding: 10px;
+    }
+  
+    #form_form>input[type="submit"] {
+        width: 100%;
+    }
+  }
+  #login_header {
+  
+    color: #333;
+    text-align: center;
+    
+    }
+    
+    .login_content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 80px;
+    padding-left: 170px;
+    padding-right: 170px;
+    text-align: center;
+    }
+    
+    
+    #login_form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow:0px 7px 17px black;
+    }
+    #login_form>label,
+    #login_form>input,
+    #login_form>textarea {
+        display: block;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    
+    #login_form>input[type="email"],
+    #login_form>input[type="password"],
+    #login_form>input[type="text"],
+    #login_form>textarea {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+    
+    #login_form>input[type="submit"] {
+        background-color: #333;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    #login_form>input[type="submit"]:hover {
+        background-color: #555;
+    }
+    
+    @media screen and (max-width: 600px) {
+        #login_form {
+            padding: 10px;
+        }
+    
+        #login_form>input[type="submit"] {
+            width: 100%;
+        }
+     
+    }
+  #Dashboard{
+    font-family: Arial, sans-serif;
+    width: 100%; /* Changed to 100% */
+    margin: 50px auto;
+    margin-top: 80px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  #Dashboard h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+#Dashboard_user-info,#Dashboard_bookings{
+  margin-bottom: 30px;
+}
+#Dashboard_booking-info{
+  border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#Dashboard_booking-info h3{
+  margin-top: 0;
+}
+#Dashboard_booking-info p{
+  margin: 5px 0;
+}
+#Dashboard_user-info input{
+  margin-bottom: 10px;
+}
+  @media (width>1000px) {
+    
+    body{ 
+        box-sizing: border-box;
+        width: 100%;
+       
+    }
+ 
+    #offcanvas{
+        background-color: transparent;
+    }
+    .nav-link:hover,#login:hover{
+        transition: all 0.5s ease-in-out;
+     color: white;
+     transform: scale(1.2);
+    }
+    .nav-link.active {
+      color: whitesmoke!important;  
+      background-color: transparent !important;
+
+    }
+    .nav-link{
+      text-align: center;
+      background-color: transparent !important;
+      border-radius: 10px;
+      padding: 10px;
+      margin-top: 5px;
+    }
+
+  }
